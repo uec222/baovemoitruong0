@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Tường Bảo Vệ Môi Trường - Nhóm Bảo Minh-Na Na</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e8f5e9;
+            margin: 0;
+            padding: 20px;
+            color: #2e7d32;
+        }
+        .poster {
+            background: white;
+            border: 15px solid #4caf50;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+            box-shadow: 0 0 25px rgba(0,0,0,0.15);
+        }
+        h1 {
+            text-align: center;
+            color: #1b5e20;
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px #ccc;
+        }
+        .group-name {
+            text-align: center;
+            font-size: 1.8em;
+            color: #d32f2f;
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 15px;
+            background: #f8fdf8;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2e7d32;
+            border-bottom: 2px solid #a5d6a7;
+            padding-bottom: 8px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .image-gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 3px solid #a5d6a7;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+        .poem {
+            font-style: italic;
+            text-align: center;
+            padding: 15px;
+            background: #e8f5e9;
+            border-left: 5px solid #4caf50;
+            margin: 20px 0;
+        }
+        .fact-box {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 5px solid #2196f3;
+        }
+        .comment-section {
+            background: #f1f8e9;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        #comment-form input, #comment-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #a5d6a7;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        button {
+            background: #4caf50;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #388e3c;
+        }
+        .comment {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #4caf50;
+            border-radius: 0 8px 8px 0;
+            box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+        }
+        .comment strong {
+            color: #2e7d32;
+            font-size: 1.1em;
+        }
+        .comment small {
+            color: #666;
+            font-size: 0.9em;
+            display: block;
+            margin-top: 5px;
+        }
+        .quote {
+            font-size: 1.2em;
+            text-align: center;
+            margin: 30px 0;
+            color: #1b5e20;
+            font-weight: bold;
+        }
+        .current-situation {
+            margin: 25px 0;
+            text-align: center;
+        }
+        .current-situation img {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 5px solid #81c784;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <h1>🌿 BÁO TƯỜNG: CHUNG TAY BẢO VỆ MÔI TRƯỜNG 🌍</h1>
+        <div class="group-name">NHÓM BẢO MINH-NA NA</div>
+        
+        <!-- Lời mở đầu -->
+        <div class="section">
+            <h2>Lời Mở Đầu</h2>
+            <p>Trái Đất - ngôi nhà chung của chúng ta đang đối mặt với nhiều thách thức về môi trường. Nhóm Bảo Minh-Na Na xin gửi tới các bạn báo tường này như một lời kêu gọi cùng nhau hành động vì một tương lai xanh, sạch, đẹp cho thế hệ mai sau.</p>
+            
+            <div class="quote">
+                "Hãy là sự thay đổi mà bạn muốn thấy trên thế giới này" - Mahatma Gandhi
+            </div>
+        </div>
+        
+        <!-- Thực trạng hiện nay -->
+        <div class="section">
+            <h2>Thực Trạng Môi Trường Hiện Nay</h2>
+            
+            <div class="current-situation">
+                <img src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Rác thải nhựa đại dương">
+                <p>Hàng triệu tấn rác thải nhựa đổ ra biển mỗi năm, đe dọa nghiêm trọng đến hệ sinh thái biển.</p>
+            </div>
+            
+            <div class="current-situation">
+                <img src="https://images.unsplash.com/photo-1584267385494-9fdd9a71ad75?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Ô nhiễm không khí">
+                <p>Ô nhiễm không khí từ khí thải công nghiệp và phương tiện giao thông đang ở mức báo động.</p>
+            </div>
+            
+            <div class="current-situation">
+                <img src="https://images.unsplash.com/photo-1615872320146-0463cd308a43?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Cháy rừng">
+                <p>Cháy rừng do biến đổi khí hậu đang hủy hoại hệ sinh thái tự nhiên.</p>
+            </div>
+        </div>
+        
+        <!-- Thực trạng -->
+        <div class="section">
+            <h2>Số Liệu Đáng Báo Động</h2>
+            <div class="fact-box">
+                <h3>Ô nhiễm không khí</h3>
+                <p>Theo WHO, 9/10 người trên thế giới đang hít thở không khí ô nhiễm. Mỗi năm có khoảng 7 triệu người chết sớm do ô nhiễm không khí.</p>
+            </div>
+            
+            <div class="fact-box">
+                <h3>Rác thải nhựa</h3>
+                <p>Mỗi phút có 1 triệu chai nhựa được bán ra, mỗi năm có 5 nghìn tỷ túi nhựa được sử dụng. Chỉ 9% số rác nhựa được tái chế.</p>
+            </div>
+            
+            <div class="fact-box">
+                <h3>Biến đổi khí hậu</h3>
+                <p>Nhiệt độ Trái Đất đã tăng 1°C so với thời kỳ tiền công nghiệp. Nếu không hành động, đến năm 2100 nhiệt độ có thể tăng thêm 3-5°C.</p>
+            </div>
+        </div>
+        
+        <!-- Hành động -->
+        <div class="section">
+            <h2>10 Hành Động Thiết Thực Bảo Vệ Môi Trường</h2>
+            <ol>
+                <li>Sử dụng túi vải, túi giấy thay túi nilon</li>
+                <li>Mang bình nước cá nhân thay chai nhựa dùng một lần</li>
+                <li>Phân loại rác tại nguồn (rác tái chế, rác hữu cơ, rác thải khác)</li>
+                <li>Tắt điện khi không sử dụng, sử dụng thiết bị tiết kiệm năng lượng</li>
+                <li>Hạn chế sử dụng đồ nhựa dùng một lần (ống hút, thìa nhựa...)</li>
+                <li>Trồng cây xanh tại nhà, trường học, khu dân cư</li>
+                <li>Ưu tiên sử dụng sản phẩm có nguồn gốc tự nhiên, thân thiện môi trường</li>
+                <li>Đi bộ, xe đạp hoặc sử dụng phương tiện công cộng thay vì xe máy, ô tô cá nhân</li>
+                <li>Tham gia các hoạt động dọn rác, bảo vệ môi trường tại địa phương</li>
+                <li>Tuyên truyền, nâng cao nhận thức về bảo vệ môi trường cho mọi người</li>
+            </ol>
+        </div>
+        
+        <!-- Thơ -->
+        <div class="section">
+            <h2>Bài Thơ: Trái Đất Ơi!</h2>
+            <div class="poem">
+                <p>Trái Đất ơi, ngôi nhà chung</p>
+                <p>Xanh tươi một thuở, nay dần héo hon</p>
+                <p>Rác thải ngập tràn, khói bụi mịt mù</p>
+                <p>Sinh vật biển khóc, rừng già đau thương</p>
+                <br>
+                <p>Hỡi người ơi, xin tỉnh ngộ</p>
+                <p>Chung tay cứu lấy hành tinh</p>
+                <p>Mỗi hành động nhỏ hôm nay</p>
+                <p>Là hy vọng cho ngày mai tươi sáng!</p>
+            </div>
+            <p style="text-align: right;"><em>- Sáng tác bởi nhóm Bảo Minh-Na Na -</em></p>
+        </div>
+        
+        <!-- Hình ảnh -->
+        <div class="section">
+            <h2>Hình Ảnh Hoạt Động</h2>
+            <div class="image-gallery">
+                <img src="https://images.unsplash.com/photo-1526779259212-939e64788e3c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dọn rác bãi biển">
+                <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Trồng cây xanh">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Phân loại rác">
+                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sử dụng năng lượng sạch">
+            </div>
+            <p>Một số hình ảnh về các hoạt động bảo vệ môi trường mà chúng ta có thể tham gia.</p>
+        </div>
+        
+        <!-- Câu hỏi -->
+        <div class="section">
+            <h2>Bạn Có Biết?</h2>
+            <div class="fact-box">
+                <h3>Mất bao lâu để rác phân hủy?</h3>
+                <ul>
+                    <li>Giấy: 2-5 tháng</li>
+                    <li>Vỏ cam: 6 tháng</li>
+                    <li>Túi nhựa: 10-20 năm</li>
+                    <li>Chai nhựa: 450-1000 năm</li>
+                    <li>Lon nhôm: 200-500 năm</li>
+                    <li>Thủy tinh: 1 triệu năm</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Kêu gọi hành động -->
+        <div class="section">
+            <h2>Lời Kêu Gọi</h2>
+            <p>Nhóm Bảo Minh-Na Na kêu gọi tất cả mọi người hãy cùng nhau hành động ngay hôm nay để bảo vệ môi trường. Mỗi hành động nhỏ của chúng ta đều có ý nghĩa lớn lao đối với Trái Đất.</p>
+            <div class="quote">
+                "Chúng ta không thừa hưởng Trái Đất từ tổ tiên, chúng ta mượn nó từ thế hệ tương lai" - Ngạn ngữ châu Phi
+            </div>
+        </div>
+        
+        <!-- Chia sẻ cảm nghĩ -->
+        <div class="comment-section">
+            <h2>💬 Góc Chia Sẻ Cảm Nghĩ</h2>
+            <p>Hãy chia sẻ suy nghĩ của bạn về bảo vệ môi trường hoặc các hoạt động bạn đã tham gia:</p>
+            <form id="comment-form">
+                <input type="text" id="name" placeholder="Tên của bạn" required>
+                <textarea id="message" rows="5" placeholder="Cảm nghĩ của bạn..." required></textarea>
+                <button type="submit">Gửi Bình Luận</button>
+            </form>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            alert("Chào mừng bạn đến với trang web Bảo vệ Môi Trường của nhóm Bảo Minh-Na Na! Hãy cùng hành động vì Trái Đất!");
+            
+            // Load saved comments
+            const comments = JSON.parse(localStorage.getItem('comments') || '[]');
+            const commentList = document.getElementById('comment-list');
+            
+            comments.forEach(comment => {
+                const commentDiv = document.createElement('div');
+                commentDiv.className = 'comment';
+                commentDiv.innerHTML = `
+                    <strong>${comment.name}</strong>
+                    <p>${comment.message}</p>
+                    <small>${new Date(comment.date).toLocaleString()}</small>
+                `;
+                commentList.appendChild(commentDiv);
+            });
+        };
+
+        // Handle comment submission
+        document.getElementById('comment-form').onsubmit = function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const message = document.getElementById('message').value;
+            
+            if(name.trim() === '' || message.trim() === '') {
+                alert('Vui lòng nhập đầy đủ tên và nội dung!');
+                return;
+            }
+            
+            const commentDiv = document.createElement('div');
+            commentDiv.className = 'comment';
+            commentDiv.innerHTML = `
+                <strong>${name}</strong>
+                <p>${message}</p>
+                <small>${new Date().toLocaleString()}</small>
+            `;
+            
+            document.getElementById('comment-list').prepend(commentDiv);
+            document.getElementById('comment-form').reset();
+            
+            // Save to localStorage
+            const comments = JSON.parse(localStorage.getItem('comments') || '[]');
+            comments.unshift({ 
+                name, 
+                message, 
+                date: new Date().toISOString() 
+            });
+            localStorage.setItem('comments', JSON.stringify(comments));
+            
+            alert('Cảm ơn bạn đã chia sẻ!');
+        };
+    </script>
+</body>
+</html>
